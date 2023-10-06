@@ -281,8 +281,8 @@ y = [10, 8, 6, 4, 2]
 
 plt.plot(x, y)
 
-plt.xlabel('X label')
-plt.ylabel('Y label')
+plt.xlabel('time')
+plt.ylabel('n')
 plt.title('python')
 
 plt.show()
