@@ -168,6 +168,6 @@ else:
     print("complete") """
 
 
-#with
-with open("temp.txt","r") as f:
-    print(f.read())
+#with 파일 자동 close
+""" with open("temp.txt","r") as f:
+    print(f.read()) """
