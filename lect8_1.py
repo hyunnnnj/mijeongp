@@ -235,7 +235,7 @@ user1.age = 23
 print(user1.age) """
 
 #다형성
-""" class Person :
+"""class Person :
     def __init__(self, name, age, num) :
         self.name = name
         self.age = age
@@ -288,12 +288,17 @@ p1 = Person("park",20,"01083332222")
 p2 = Person("kim",24,"01022229999")
 
 print(p1.getName())
+print(p2.getName())
 print(p1.getNumber())
 print(p2.getNumber())
 
-
-p1.getNumber()
-p2.getNumber()
+p1.setName("A")
+p2.setName("B")
 
 p1.setNumber("11111111111")
-p1.setNumber("22222222222") """
+p1.setNumber("22222222222")
+
+print(p1.getName())
+print(p2.getName())
+print(p1.getNumber())
+print(p2.getNumber()) """
