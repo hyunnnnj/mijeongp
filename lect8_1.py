@@ -304,12 +304,12 @@ print(p1.getNumber())
 print(p2.getNumber()) """
 
 #==========================================================================
-##1103수업   << 오류 수정
-""" import mod.calc as cm
+##1103수업   
+import calc2 as cm
 
 cl = cm.Calc()
 
-print(cl.add(1,2)) """
+print(cl.add(1,2))
 
 
 ##텍스트 줄이기
