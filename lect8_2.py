@@ -202,11 +202,11 @@ end = time.time()
 print("process end", end- start) """
 
 #main 실행
-def main() :
+"""def main() :
     print("hello world")
 
 def run() :
     print("hello python")
 
 if __name__ == "__main__":
-    run()
+    run()"""
