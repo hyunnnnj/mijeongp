@@ -107,6 +107,7 @@ print(web) """
 """ import http.client as hc
 
 #url = 'https://www.google.com'
+url = "www.google.com"
 #url = "v.daum.net"
 
 conn = hc.HTTPSConnection(url)
