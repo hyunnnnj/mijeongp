@@ -305,12 +305,12 @@ print(p2.getNumber()) """
 
 #==========================================================================
 ##1103수업   
-"""import calc2 as cm
+""" import calc2 as cm
 
 cl = cm.Calc()
 
-print(cl.add(1,2))
-"""
+print(cl.add(1,2)) """
+
 
 ##텍스트 줄이기
 """ import textwrap as tw
