@@ -215,7 +215,7 @@ if __name__ == "__main__":
     
 #===================1110수업===============================
 
-#비동기 처리
+#비동기 처리 1
 """ import asyncio
 import random as rd
 
@@ -243,7 +243,32 @@ async def main():
 if __name__ == '__main__':
     asyncio.run(main()) """
     
-###몬가 빠짐
+# 비동기 처리 2
+"""
+import asyncio
+
+async def worker1():
+    for i in range(1, 6):
+        print(f"Task 1: Step {i}")
+        await asyncio.sleep(1)
+
+async def worker2():
+    for i in range(1, 4):
+        print(f"Task 2: Step {i}")
+        await asyncio.sleep(2)
+
+async def main():
+    task1 = asyncio.create_task(worker1())
+    task2 = asyncio.create_task(worker2())
+
+    print("start task")
+    await task1
+    await task2
+    print("end task")
+
+if __name__ == '__main__':
+    asyncio.run(main())
+"""
 
 #스케줄
 ##1
