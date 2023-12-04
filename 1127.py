@@ -1,5 +1,33 @@
+""" from faker import Faker as fk
+import os
+
+folder = "data/"
+if not os.path.isdir(folder):
+    os.mkdir(folder)
+
+temp = fk("ko-KR")
+with open(folder + "fktemp.csv", "w", encoding='utf8') as f :
+    f.write("name,address,postcode,company,job,phone,email,id,ip_prv,ip_pub,catch_parase,color\n")
+
+with open(folder + "fktemp.csv", "a", newline='', encoding='utf8') as f :
+    for i in range(30) :
+        f.write(temp.name() + "," + 
+            temp.address() + "," + 
+            temp.postcode() + "," + 
+            temp.company() + "," + 
+            temp.job() + "," + 
+            temp.phone_number() + "," + 
+            temp.email() + "," + 
+            temp.user_name() + "," + 
+            temp.ipv4_private() + "," + 
+            temp.ipv4_public() + "," + 
+            temp.catch_phrase() + "," + 
+            temp.color_name() + "\n") 
+"""
+
+
 # 변환
-import pandas as pd
+#import pandas as pd
 
 target = "data/apt.csv"
 
