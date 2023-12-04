@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
+"""import matplotlib.pyplot as plt
 
-"""#plt.plot([2,3,6,7,10], [1,4,5,8,9], "-", label="PData(km)")
+#plt.plot([2,3,6,7,10], [1,4,5,8,9], "-", label="PData(km)")
 
 #plt.plot([2,3,6,7,10], [1,4,5,8,9], linestyle="solid", label="PData(km)")
 #plt.plot([2,3,6,7,10], [1,4,5,8,9], linestyle="dashed", label="PData(km)")
@@ -163,20 +163,20 @@ plt.bar(x_years, y_data, color=clr)
 plt.xticks()
 plt.yticks()"""
 
-x_years = ['2020', '2021', '2022']
+"""x_years = ['2020', '2021', '2022']
 y_data = [100, 400, 900]
-clr = ["r", "g", "b"]
+clr = ["r", "g", "b"]"""
 
 # 수평 그래프 그리기
-plt.barh(x_years, y_data)
+#plt.barh(x_years, y_data)
 
 # 그래프 설정
 #   {x축 데이터}{y축 데이터}{색설정} {위치설정} {테두리색설정} {선두께} {그래프 두께}
-plt.barh(x_years, y_data, color=clr, align="center", edgecolor="black", linewidth=3, height=0.3)
+#plt.barh(x_years, y_data, color=clr, align="center", edgecolor="black", linewidth=3, height=0.3)
 
 
 #plt.bar(x_years, y_data)
-plt.show()
+#plt.show()
 
 
 
